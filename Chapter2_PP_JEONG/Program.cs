@@ -14,7 +14,7 @@
         static void GameDataSetting()
         {
             // 캐릭터 정보 세팅
-            player = new Character("김 신", "검사", 1, 19, 99, 100, 500);
+            player = new Character("김 신", "검사", 1, 10, 5, 100, 1500);
             
             // 아이템 정보 세팅
         }
@@ -74,6 +74,7 @@
             Console.Clear();
 
             Console.WriteLine("인벤토리");
+            Console.WriteLine("겨울의 검");
             Console.WriteLine("겨울의 검");
             Console.WriteLine("삶은 감자");
             Console.WriteLine("고로쇠 물");
